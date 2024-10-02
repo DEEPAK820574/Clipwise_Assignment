@@ -4,10 +4,10 @@ import PriceDetail from "../Components/PriceComponent/PriceDetail";
 
 const Price = () => {
   return (
-     <div
+    <div
       className=" absolute top-[2086px] w-[1440px] h-[798px] overflow-hidden "
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/assets/homebg.png)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/assets/homeBG.png)`,
         backgroundSize: "1440px 798px",
         backgroundPosition: "center",
       }}
