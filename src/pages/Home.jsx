@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <div
-        className="max-w-[1440px] h-[900px] "
+        className="w-[1440px] h-[900px] "
         style={{
           backgroundImage: `url(${process.env.PUBLIC_URL}/assets/homeBG.png)`,
           backgroundSize: "cover",
