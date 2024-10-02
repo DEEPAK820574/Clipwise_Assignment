@@ -5,17 +5,17 @@ import PriceDetail from "../Components/PriceComponent/PriceDetail";
 const Price = () => {
   return (
      <div
-      class=" absolute top-[2086px] w-[1440px] h-[798px] overflow-hidden "
+      className=" absolute top-[2086px] w-[1440px] h-[798px] overflow-hidden "
       style={{
-        backgroundImage: `url("/assets/homebg.png")`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/assets/homebg.png)`,
         backgroundSize: "1440px 798px",
         backgroundPosition: "center",
       }}
     >
       <div
-        class=" absolute  w-[1440px] h-[798px] z-20  "
+        className=" absolute  w-[1440px] h-[798px] z-20  "
         style={{
-          backgroundImage: `url("/assets/pricewhiteboard.png")`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}/assets/pricewhiteboard.png)`,
           backgroundSize: "1440px 798px",
           backgroundPosition: "center",
         }}
